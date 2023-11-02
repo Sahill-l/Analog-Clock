@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv {
+    height: 40vw;
+    width: 40vw;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(clock.png);
+    background-size: 100%;
+    position: relative;
+}
+
+#hHand {
+    width: 1.5%;
+    height: 27%;
+    background-color:black;
+    border-radius: 4px 4px 0px 0px;
+    position: absolute;
+    top: 22.95%;
+    left: 48.9%;
+    transform-origin: bottom;
+}
+
+#mHand {
+    width: 1%;
+    height: 32%;
+    background-color:black;
+    border-radius: 4px 4px 0px 0px;
+    position: absolute;
+    top: 18%;
+    left: 49.25%;
+    transform-origin: bottom;
+}
+
+#sHand {
+    width: 0.4%;
+    height: 35%;
+    background-color: black;
+    border-radius: 4px 4px 0px 0px;
+    position: absolute;
+    top: 15%;
+    left: 49.5%;
+    transform-origin: bottom;
+}
